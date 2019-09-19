@@ -10,7 +10,7 @@ namespace ExerciseRelations
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("adios mundo")
+            Console.WriteLine("adios mundo");
         }
     }
 }
