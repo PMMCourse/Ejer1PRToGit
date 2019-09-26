@@ -10,6 +10,14 @@ namespace ExerciseRelations
     {
         static void Main(string[] args)
         {
+            HelloWorld(5);
+        }
+
+        public static void HelloWorld<TType>(TType type)
+        {
+            Console.WriteLine($"Hello {type.ToString()}");
         }
     }
+
+    
 }
